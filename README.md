@@ -1,4 +1,4 @@
-# YearDream_STT_NLP
+# ConnectsLab_Speech
 ---
 이어드림스쿨 기업연계 프로젝트입니다.
 
