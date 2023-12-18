@@ -7,8 +7,9 @@ Speech-To-Text 및 Text Classification 기술을 이용해서 주어진 문제�
 ---
 # 데이터셋(Data set)
 
-[자유대화 음성](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=109)
-[소음데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71405)
+- [자유대화 음성](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=109)
+
+- [소음데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71405)
 
 ---
 # STT(Speech-To-Text) 
