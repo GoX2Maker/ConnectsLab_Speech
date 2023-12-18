@@ -18,7 +18,18 @@ Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
 
 STT로 Deepspeech2를 이용했습니다.
 
-참고자료
+[참고자료]
+- [Awesome-Korean-Speech-Recognition](https://github.com/rtzr/Awesome-Korean-Speech-Recognition)
+  - 설명~~~~
+- [DeepSpeech2 Kor](https://github.com/fd873630/deep_speech_2_korean)
+  - DeepSpeech2 한국어 코드를 참고했습니다.
+- [DeepSpeech2] (https://github.com/SeanNaren/deepspeech.pytorch)
+  - DeepSpeech2 코드 참고했습니다.
+
+## DeepSpeech2 VS Whisper tiny
+
+![image](https://github.com/GoX2Maker/ConnectsLab_Speech/assets/131675046/b22986cf-1c4e-400e-8bf6-9ac515796e9f)
+
 
 
 [허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/DeepSpeech2_Kor)
