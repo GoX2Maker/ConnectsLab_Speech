@@ -6,3 +6,13 @@ Speech-To-Text 및 Text Classification 기술을 이용해서 주어진 문제�
 
 ---
 # STT(Speech-To-Text) 
+
+[허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/DeepSpeech2_Kor)
+
+
+---
+# Classification
+
+[허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/audio_gender_classifier)
+
+
