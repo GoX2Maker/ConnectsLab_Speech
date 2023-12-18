@@ -1,0 +1,14 @@
+cuda: 
+  usingCuda    : True
+  cudaNumber   : 0       # 0 or 1
+    
+
+model:
+  savePath  : '/DATA/deepspeech_final.pth'
+  half       : False
+    
+data:
+  num_workers  : 4       # Number of workers used in data-loading
+  batch_size   : 40       # Batch size for training
+  audioFolder   : '/DATA2/자유대화 음성(일반남녀)/Validation/일반남여_일반통합01_F_KKJ00_47_수도권_녹음실'
+  readCNT : 0  # 0 : read all audios in audioFolder

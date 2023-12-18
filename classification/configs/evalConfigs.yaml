@@ -1,0 +1,23 @@
+training:
+    seed     : 42
+    useCuda    : True
+    cudaNumber : 0       # 0 or 1
+    epochs     : 20            # Number of Training Epochs
+
+data:
+    testDataPath : "/DATA/code/classification/data/test.csv"
+    validRate : 0.2
+    testSize : 300
+    batch_size   : 30       # Batch size for training
+    sample_rate  : 16000   # The sample rate for the data/model features
+    window_size  : .02     # Window size for spectrogram generation (seconds)
+    n_mfcc : 128 
+    hop_length : 320
+    desired_frames : 300  # Desired number of frames in Mel spectrogram
+    loaderCheck : False
+    
+
+checkpointing:
+    save_model   : '/DATA/code/classification/models/Sonmin/best_model.pth'
+
+

@@ -1,0 +1,28 @@
+training:
+    seed     : 42
+    useCuda    : True
+    cudaNumber : 0       # 0 or 1
+    epochs     : 20            # Number of Training Epochs
+
+data:
+    trainDataPath : "/DATA/code/classification/data/train.csv"
+    validRate : 0.2
+    trainSize : 3000 
+    batch_size   : 40       # Batch size for training
+    sample_rate  : 16000   # The sample rate for the data/model features
+    window_size  : .02     # Window size for spectrogram generation (seconds)
+    n_mfcc : 128 
+    hop_length : 320
+    desired_frames : 300  # Desired number of frames in Mel spectrogram
+    loaderCheck : False
+    
+optimizer:
+    learning_rate  : 1.5e-4  # Initial Learning Rate
+    weight_decay   : 1e-5   # Initial Weight Decay
+    eps            : 1e-8            # Adam eps
+    betas           : (0.9, 0.999)   # Adam betas
+
+checkpointing:
+    save_folder   : '/DATA/code/classification/models/Sonmin' # Location to save epoch models
+
+

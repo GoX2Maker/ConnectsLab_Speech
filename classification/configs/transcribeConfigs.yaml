@@ -1,0 +1,17 @@
+training:
+    useCuda    : True
+    cudaNumber : 0       # 0 or 1
+
+data:
+    sample_rate  : 16000   # The sample rate for the data/model features
+    window_size  : .02     # Window size for spectrogram generation (seconds)
+    n_mfcc : 128 
+    hop_length : 320
+    desired_frames : 300  # Desired number of frames in Mel spectrogram
+
+    audioFolder   : '/DATA2/자유대화 음성(일반남녀)/Validation/일반남여_일반통합01_M_HDH00_41_수도권_녹음실'
+    readCNT : 0  # 0 : read all audios in audioFolder
+  
+
+checkpointing:
+    save_model   : '/DATA/code/classification/models/Sonmin/best_model.pth'

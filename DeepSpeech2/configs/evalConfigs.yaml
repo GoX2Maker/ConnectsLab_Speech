@@ -1,0 +1,13 @@
+cuda: 
+  usingCuda    : True
+  cudaNumber   : 0       # 0 or 1
+    
+
+model:
+  savePath  : '/DATA/deepspeech_final.pth'
+  half       : False
+    
+data:
+  test_manifest   : '/DATA2/자유대화 음성(일반남녀)/test.csv'
+  num_workers  : 4       # Number of workers used in data-loading
+  batch_size   : 40       # Batch size for training
