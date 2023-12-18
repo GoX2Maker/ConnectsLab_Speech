@@ -144,7 +144,7 @@ scratch training된 DeepSpeech2 모델이 Whisper-tiny 파인튜닝보다 좋은
 
 ## STT 결과
 
-DeepSpeech2모델을 허깅페이스에 업로드 했습니다.
+아래의 허깅페이스 링크를 통해 DeepSpeech2 모델을 확인하실 수 있습니다.
 
 [허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/DeepSpeech2_Kor)
 
@@ -165,17 +165,17 @@ DeepSpeech2모델을 허깅페이스에 업로드 했습니다.
 
 # Classification
 
-기업측에서 부모간의 발화비율을 확인한다고 합니다. 그래서 오디오에서 남녀를 분리하는 간단한 모델을 만들었습니다.
+부모간의 발화비율을 확인하기 위해 음성데이터 상태에서 발화자의 성별을 분류하는 Gender Classification model을 만들었습니다.
 
 ## 모델구조
 
 제작한 모델 구조는 다음과 같습니다.
 
-![Alt text](image.png)
+![gender classification model](image.png)
 
 ## 분류 결과
 
-분류 결과 Test Set에서 0.98(acc)가 나왔습니다.
-해당 모델을 허깅페이스에 업로드했습니다.
+성별 분류 결과 Test Set에서 0.98(acc)를 달성하였습니다.
+해당 모델은 아래의 허깅페이스 링크를 통해 확인해보실 수 있습니다.
 
 [허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/audio_gender_classifier)
