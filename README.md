@@ -1,8 +1,10 @@
 # ConnectsLab_Speech
 ---
-이어드림스쿨 기업연계 프로젝트입니다.
+2023년 이어드림스쿨에서 진행된 기업연계 프로젝트입니다.
 
-Speech-To-Text 및 Text Classification 기술을 이용해서 주어진 문제를 해결합니다.
+Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
+
+
 
 ---
 # 데이터셋(Data set)
@@ -13,6 +15,11 @@ Speech-To-Text 및 Text Classification 기술을 이용해서 주어진 문제�
 
 ---
 # STT(Speech-To-Text) 
+
+STT로 Deepspeech2를 이용했습니다.
+
+참고자료
+
 
 [허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/DeepSpeech2_Kor)
 
