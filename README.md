@@ -145,6 +145,7 @@ scratch training된 DeepSpeech2 모델이 Whisper-tiny 파인튜닝보다 좋은
 ## STT 결과
 
 DeepSpeech2모델을 허깅페이스에 업로드 했습니다.
+
 [허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/DeepSpeech2_Kor)
 
 ## 참고자료
@@ -153,9 +154,9 @@ DeepSpeech2모델을 허깅페이스에 업로드 했습니다.
   - 한국어 음성데이터로 학습된 STT API들간의 성능비교표 참고.
 - [DeepSpeech2 Kor](https://github.com/fd873630/deep_speech_2_korean)
   - DeepSpeech2 한국어 코드를 참고했습니다.
-- [DeepSpeech2] (https://github.com/SeanNaren/deepspeech.pytorch)
+- [DeepSpeech2](https://github.com/SeanNaren/deepspeech.pytorch)
   - DeepSpeech2 코드 참고했습니다.
-- [Whisper-fine-tuning] (https://colab.research.google.com/github/huggingface/community-events/blob/main/whisper-fine-tuning-event/fine_tune_whisper_streaming_colab.ipynb)
+- [Whisper-fine-tuning](https://colab.research.google.com/github/huggingface/community-events/blob/main/whisper-fine-tuning-event/fine_tune_whisper_streaming_colab.ipynb)
   - Whisper fine tuning을 할 때 참고했습니다.
 - [Whisper 한국어 파인듀닝 논문](https://www.eksss.org/archive/view_article?pid=pss-15-3-75)
   - Whisper 한국어 파인듀닝 논문자료입니다.
@@ -169,10 +170,12 @@ DeepSpeech2모델을 허깅페이스에 업로드 했습니다.
 ## 모델구조
 
 제작한 모델 구조는 다음과 같습니다.
+
 ![Alt text](image.png)
 
 ## 분류 결과
 
 분류 결과 Test Set에서 0.98(acc)가 나왔습니다.
 해당 모델을 허깅페이스에 업로드했습니다.
+
 [허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/audio_gender_classifier)
