@@ -61,7 +61,6 @@ Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
 └── README.md
 └── requirements.txt
 
-10 directories, 31 files
 ```
 
 ## Wiki
