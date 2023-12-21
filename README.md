@@ -2,6 +2,8 @@
 
 2023년 11월 9일 ~ 2023년 12월 15일 (37일간) 까지 이어드림스쿨에서 진행된 기업연계 프로젝트입니다.
 
+![image](https://github.com/GoX2Maker/ConnectsLab_Speech/assets/132239072/11546900-b5ad-4a0e-825a-5b93273ebe64)
+
 Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
 
 ## 😆 Members
@@ -64,7 +66,7 @@ Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
 
 ## Wiki
 
-프로젝트를 진행하면서 참고한 논문 및 자료를 Wiki에 정리했습니다.
+기업 소계, 프로젝트를 진행하면서 참고한 논문 및 자료를 Wiki에 정리했습니다.
 
 👉🏻 [위키 바로가기](https://github.com/GoX2Maker/ConnectsLab_Speech/wiki)
 
