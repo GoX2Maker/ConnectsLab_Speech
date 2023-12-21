@@ -1,8 +1,17 @@
-# ConnectsLab_Speech
+# ConnectsLab Speech
 
 2023년 11월 9일 ~ 2023년 12월 15일 (37일간) 까지 이어드림스쿨에서 진행된 기업연계 프로젝트입니다.
 
 Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
+
+## 😆 Members
+
+기업프로젝트에 참가한 멤버입니다.
+
+😆 [김민주](https://github.com/donaldducks) 😆 [박민수](https://github.com/pingu605) 😆 [이선민](https://github.com/GoX2Maker) 😆 [조인철](https://github.com/carryplz)
+😆 [최희영](https://github.com/MrSteveChoi)
+
+## 📂 Git 파일 구조
 
 ```
 .
@@ -30,6 +39,7 @@ Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
 │   │   └── 02_prepareDataset.ipynb
 │   ├── train.py
 │   └── transcribe.py
+|   └── README.md
 ├── classification
 │   ├── configs
 │   │   ├── evalConfigs.yaml
@@ -44,13 +54,21 @@ Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
 │   │   └── 02_prepareDataset.ipynb
 │   ├── train.py
 │   └── transcribe.py
+│   └── README.md
 ├── LICENSE
 └── README.md
+└── requirements.txt
 
 10 directories, 31 files
 ```
 
-# 1. 컴퓨터 환경
+## Wiki
+
+프로젝트를 진행하면서 참고한 논문 및 자료를 Wiki에 정리했습니다.
+
+👉🏻 [위키 바로가기](https://github.com/GoX2Maker/ConnectsLab_Speech/wiki)
+
+# 1. 컴퓨터 환경 🖥️
 
 이어드림 스쿨에서 지원받은 서버.
 
@@ -72,7 +90,7 @@ Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
 
 <img src="https://yt3.googleusercontent.com/ytc/APkrFKY22EDptTNlPABU91QU62THoc93tJ6DbGh2oVXI=s900-c-k-c0x00ffffff-no-rj" width="200"></img>
 
-- [자유대화 음성 바로가기](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=109)
+👉🏻 [자유대화 음성 바로가기](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=109)
 
 AI-Hub의 "한국어 자유대화 음성" 데이터로 학습을 했습니다. 지원받은 컴퓨터 자원을 고려해서 데이터를 선별했습니다.
 해당 데이터로 STT 및 Classfication 데이터 셋으로 활용했습니다.
@@ -88,7 +106,7 @@ AI-Hub의 "한국어 자유대화 음성" 데이터로 학습을 했습니다. �
 
 <img src="https://yt3.googleusercontent.com/ytc/APkrFKY22EDptTNlPABU91QU62THoc93tJ6DbGh2oVXI=s900-c-k-c0x00ffffff-no-rj" width="200"></img>
 
-- [소음데이터 바로가기](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71405)
+👉🏻 [소음데이터 바로가기](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71405)
 
 소음이 있는 환경에서의 STT 결과를 확인하기 위해 소음데이터를 활용하였습니다.
 
@@ -153,7 +171,7 @@ scratch training된 DeepSpeech2 모델이 Whisper-tiny 파인튜닝보다 좋은
 
 아래의 허깅페이스 링크를 통해 DeepSpeech2 모델을 확인하실 수 있습니다.
 
-[허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/DeepSpeech2_Kor)
+👉🏻 [허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/DeepSpeech2_Kor)
 
 ## 3.3. 참고자료
 
@@ -189,4 +207,4 @@ scratch training된 DeepSpeech2 모델이 Whisper-tiny 파인튜닝보다 좋은
 성별 분류 결과 Test Set에서 0.98(acc)를 달성하였습니다.
 해당 모델은 아래의 허깅페이스 링크를 통해 확인해보실 수 있습니다.
 
-[허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/audio_gender_classifier)
+👉🏻 [허깅페이스 바로가기](https://huggingface.co/spaces/GOx2Maker/audio_gender_classifier)
