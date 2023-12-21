@@ -69,6 +69,17 @@ Speech-To-Text 및 Audio Gender Classification 기술을 이용합니다.
 
 👉🏻 [위키 바로가기](https://github.com/GoX2Maker/ConnectsLab_Speech/wiki)
 
+👉🏻 [음성인식 알고리즘 요약](https://github.com/GoX2Maker/ConnectsLab_Speech/wiki/%EC%9D%8C%EC%84%B1%EC%9D%B8%EC%8B%9D-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9A%94%EC%95%BD)
+
+👉🏻 [End‐to‐End ASR](https://github.com/GoX2Maker/ConnectsLab_Speech/wiki/End%E2%80%90to%E2%80%90End-ASR)
+
+👉🏻 [wav2vec 논문 리뷰](https://github.com/GoX2Maker/ConnectsLab_Speech/wiki/wav2vec-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0)
+
+👉🏻 [whisper 논문 리뷰](https://github.com/GoX2Maker/ConnectsLab_Speech/wiki/whisper-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0)
+
+👉🏻 [CTC Loss](https://github.com/GoX2Maker/ConnectsLab_Speech/wiki/CTC-Loss)
+
+
 # 1. 컴퓨터 환경 🖥️
 
 이어드림 스쿨에서 지원받은 서버.
