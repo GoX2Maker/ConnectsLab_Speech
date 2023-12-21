@@ -1,0 +1,101 @@
+aiofiles==23.2.1
+altair==5.2.0
+annotated-types==0.6.0
+antlr4-python3-runtime==4.9.3
+anyio==3.7.1
+attrs==23.1.0
+audioread==3.0.1
+Brotli @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_38mvgltu8c/croots/recipe/brotli-split_1659616064542/work
+certifi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35eq66o3mo/croot/certifi_1700501684871/work/certifi
+cffi @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_b4nang6w_y/croot/cffi_1700254307954/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+colorama==0.4.6
+contourpy==1.2.0
+cryptography @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b1p0q5vizk/croot/cryptography_1702070293829/work
+cycler==0.12.1
+decorator==5.1.1
+exceptiongroup==1.2.0
+fastapi==0.105.0
+ffmpy==0.3.1
+filelock @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_d3quwmvouf/croot/filelock_1700591194006/work
+fonttools==4.46.0
+fsspec==2023.12.2
+gmpy2 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/croot-muov7gw1/gmpy2_1645462616268/work
+gradio==4.9.0
+gradio_client==0.7.2
+h11==0.14.0
+httpcore==1.0.2
+httpx==0.25.2
+huggingface-hub==0.19.4
+hydra-core==1.3.2
+idna @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_771olrhiqw/croot/idna_1666125579282/work
+importlib-resources==6.1.1
+Jinja2 @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_9fjgzv9ant/croot/jinja2_1666908141308/work
+joblib==1.3.2
+jsonschema==4.20.0
+jsonschema-specifications==2023.11.2
+kiwisolver==1.4.5
+lazy_loader==0.3
+Levenshtein==0.23.0
+librosa==0.10.1
+llvmlite==0.41.1
+markdown-it-py==3.0.0
+MarkupSafe @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_12c133f5-0720-4727-9c18-599a3af825723lzwham3/croots/recipe/markupsafe_1654597866058/work
+matplotlib==3.8.2
+mdurl==0.1.2
+mpmath @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_17iu6a8a3m/croot/mpmath_1690848269369/work
+msgpack==1.0.7
+networkx @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b9af3smw_7/croot/networkx_1690562010704/work
+numba==0.58.1
+numpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c0s16d4ba1/croot/numpy_and_numpy_base_1701295077539/work/dist/numpy-1.26.2-cp39-cp39-macosx_11_0_arm64.whl#sha256=0da8b60bd6323ba8e28538660c7ef0fb6ac9bf54bdee4bbabda5e78e03eda9c2
+omegaconf==2.3.0
+orjson==3.9.10
+packaging==23.2
+pandas==2.1.4
+Pillow @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_ccx0_h9rkg/croot/pillow_1696580032390/work
+platformdirs==4.1.0
+pooch==1.8.0
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==2.5.2
+pydantic_core==2.14.5
+pydub==0.25.1
+Pygments==2.17.2
+pyOpenSSL @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_b8whqav6qm/croot/pyopenssl_1690223428943/work
+pyparsing==3.1.1
+PySocks @ file:///Users/ktietz/Code/oss/ci_pkgs/pysocks_1626781349491/work
+python-dateutil==2.8.2
+python-Levenshtein==0.23.0
+python-multipart==0.0.6
+pytz==2023.3.post1
+PyYAML @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a8_sdgulmz/croot/pyyaml_1698096054705/work
+rapidfuzz==3.5.2
+referencing==0.32.0
+requests @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_54zi68h2nb/croot/requests_1690400233316/work
+rich==13.7.0
+rpds-py==0.13.2
+scikit-learn==1.3.2
+scipy==1.11.4
+semantic-version==2.10.0
+shellingham==1.5.4
+six==1.16.0
+sniffio==1.3.0
+soundfile==0.12.1
+sox==1.4.1
+soxr==0.3.7
+starlette==0.27.0
+sympy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_7cbpg8656h/croot/sympy_1701397648473/work
+threadpoolctl==3.2.0
+tomlkit==0.12.0
+toolz==0.12.0
+torch==2.1.1
+torchaudio==2.1.1
+torchvision==0.16.1
+tqdm==4.66.1
+typer==0.9.0
+typing_extensions==4.9.0
+tzdata==2023.3
+urllib3 @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_068obtb882/croot/urllib3_1698257558009/work
+uvicorn==0.24.0.post1
+websockets==11.0.3
+zipp==3.17.0
