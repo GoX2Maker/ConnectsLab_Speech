@@ -1,57 +1,54 @@
 training:
-  DEBUG       : False
-  seed        : 42
-  useCuda     : True
-  cudaNumber  : 1       # 0 or 1
-  epochs      : 20       # Number of Training Epochs
-  finetune    : False    # Fine-tune the model from checkpoint "continue_from"
-  showResult  : 100      # Shows the result for each mini-batch
-  clearCUDACash : 100     # Clear CUDA Cash
+  DEBUG: False
+  seed: 42
+  useCuda: True
+  cudaNumber: 1 # 0 or 1
+  epochs: 20 # Number of Training Epochs
+  finetune: False # Fine-tune the model from checkpoint "continue_from"
+  showResult: 100 # Shows the result for each mini-batch
+  clearCUDACash: 100 # Clear CUDA Cash
 
 model:
-  hidden_size  : 1024   # Hidden size of RNN Layer
-  hidden_layers: 5     # Number of RNN layers
-  bidirectional: True  # Use BiRNNs. If False, uses lookahead conv
-  rnn_type     : lstm      # Type of RNN to use in modeel, rnn/gru/lstm are supported
+  hidden_size: 1024 # Hidden size of RNN Layer
+  hidden_layers: 5 # Number of RNN layers
+  bidirectional: True # Use BiRNNs. If False, uses lookahead conv
+  rnn_type: lstm # Type of RNN to use in modeel, rnn/gru/lstm are supported
 
 data:
-  labels_path    : "/DATA/data/KsponSpeech/labels_korean.json"
-  train_manifest : "/DATA2/자유대화 음성(일반남녀)/train.csv"
-  val_manifest   : "/DATA2/자유대화 음성(일반남녀)/valid.csv"
-  num_workers    : 4       # Number of workers used in data-loading
-  batch_size     : 40       # Batch size for training
-  sample_rate    : 16000   # The sample rate for the data/model features
-  window_size    : .02     # Window size for spectrogram generation (seconds)
-  window_stride  : .01   # Window stride for spectrogram generation (seconds)
-  window         : 'hamming'    # Window type for spectrogram generation
+  labels_path: "/labels_korean.json"
+  train_manifest: "/DATA2/자유대화 음성(일반남녀)/train.csv"
+  val_manifest: "/DATA2/자유대화 음성(일반남녀)/valid.csv"
+  num_workers: 4 # Number of workers used in data-loading
+  batch_size: 40 # Batch size for training
+  sample_rate: 16000 # The sample rate for the data/model features
+  window_size: .02 # Window size for spectrogram generation (seconds)
+  window_stride: .01 # Window stride for spectrogram generation (seconds)
+  window: "hamming" # Window type for spectrogram generation
 
 augmentation:
-  speed_volume_perturb  : False  # Use random tempo and gain perturbations.
-  spec_augment          : False          # Use simple spectral augmentation on mel spectograms.
+  speed_volume_perturb: False # Use random tempo and gain perturbations.
+  spec_augment: False # Use simple spectral augmentation on mel spectograms.
 
 optimizer:
-  learning_rate  : 1.5e-4  # Initial Learning Rate
-  weight_decay   : 1e-5   # Initial Weight Decay
-  momentum       : 0.9
-  adam           : True          # Replace SGD with AdamW
-  eps            : 1e-8            # Adam eps
-  betas           : (0.9, 0.999)   # Adam betas
-  max_norm       : 400        # Norm cutoff to prevent explosion of gradients
+  learning_rate: 1.5e-4 # Initial Learning Rate
+  weight_decay: 1e-5 # Initial Weight Decay
+  momentum: 0.9
+  adam: True # Replace SGD with AdamW
+  eps: 1e-8 # Adam eps
+  betas: (0.9, 0.999) # Adam betas
+  max_norm: 400 # Norm cutoff to prevent explosion of gradients
   learning_anneal: 0.99 # Annealing applied to learning rate after each epoch
 
 checkpointing:
-  continue_from           : ''                              # Continue training from checkpoint model
-  checkpoint              : True                               # Enables epoch checkpoint saving of model
-  checkpoint_per_iteration: 0                    # Save checkpoint per N number of iterations. Default is disabled
-  save_n_recent_models    : 10                       # Maximum number of checkpoints to save. If the max is reached, we delete older checkpoints
-  save_folder             : '/DATA/code/DeepSpeech2/models/Sonmin' # Location to save epoch models
-  best_val_model_name     : 'deepspeech_final.pth'    # Name to save best validated model within the save folder
-  load_auto_checkpoint    : True                    # Enable when handling interruptions. Automatically load the latest checkpoint from the save folder
+  continue_from: "" # Continue training from checkpoint model
+  checkpoint: True # Enables epoch checkpoint saving of model
+  checkpoint_per_iteration: 0 # Save checkpoint per N number of iterations. Default is disabled
+  save_n_recent_models: 10 # Maximum number of checkpoints to save. If the max is reached, we delete older checkpoints
+  save_folder: "/DATA/code/DeepSpeech2/models/Sonmin" # Location to save epoch models
+  best_val_model_name: "deepspeech_final.pth" # Name to save best validated model within the save folder
+  load_auto_checkpoint: True # Enable when handling interruptions. Automatically load the latest checkpoint from the save folder
 
 logger:
-  useLogger       : "wandb" # wandb or None
-  WBProjectTitle  : "DeepSpeech2"
-  WBNote          : "DeepSpeech2 Train Test"
-
-
-    
+  useLogger: "wandb" # wandb or None
+  WBProjectTitle: "DeepSpeech2"
+  WBNote: "DeepSpeech2 Train Test"
